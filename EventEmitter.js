@@ -465,9 +465,9 @@
             return EventEmitter;
         });
     }
-    else if (typeof module === 'object' && module.exports){
-        module.exports = EventEmitter;
-    }
+    //else if (typeof module === 'object' && module.exports){
+    //    module.exports = EventEmitter;
+    //}
     else {
         exports.EventEmitter = EventEmitter;
     }
